@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="product.css">
+  
+</head>
+
+<body>
+
+
+  <div class="main-container">
+
+    <!-- image section -->
+
+    <div class="content-container">
+    
+<div class="card-1 card">
+  <figure class="main-img">
+
+<picture class="perfume-img">
+  <source media="(min-width: 600px)" srcset="images/image-product-desktop.jpg">
+  <source media="(max-width: 601px)" srcset="images/image-product-mobile.jpg">
+  <img src="images/image-fallback.jpg" alt="Product preview">
+</picture>
+
+
+  </figure>
+
+</div>
+
+<!-- content -->
+
+<div class="card-2 card">
+
+  <!-- header section -->
+
+  <header class="intro-text">
+
+    <p class="decorative-text basic-text">PERFUME</p>
+
+    <h1 class="main-title"> Gabrielle Essence Eau De Parfum</h1>
+  </header>
+
+  <!-- main content -->
+
+  <main class="content">
+
+<p class="basic-text description">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+  Perfumer-Creator for the House of CHANEL.</p>
+
+<!-- price -->
+
+<div class="price">
+
+<p class="price-amounts">
+  <span class="discount-price">$149.99</span> 
+  <span class="old-price basic-text">$169.99</span></p>
+
+
+
+</div>
+
+<!-- cart -->
+
+<button class="btn"> <img src="images/icon-cart.svg" alt="cart-icon" class="cart-icon" >Add to Cart</button>
+
+
+  </main>
+</div>
+
+
+
+  
+</div>
+
+  </div>
+
+  
+
+ 
+
+  
+<footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+ 
+  
+
+  
+  
+</body>
+</html>
